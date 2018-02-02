@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Portfolio</title>
@@ -16,9 +17,11 @@
 
     <header>
 
-        <div class="nameBox">
-            <p>Eric Zagala</p>
-        </div>
+        <a href="index.html">
+            <div class="nameBox">
+                <p>Eric Zagala</p>
+            </div>
+        </a>
 
         <div class="navBar" >
         <nav>
@@ -34,6 +37,44 @@
         </nav>
 
     </header>
+
+    <section class="folioGrid">
+
+        <h1>
+            Portfolio
+        </h1>
+
+        <div class="row">
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+            <div class="col-md-4"><img src="assets/images/portfolio.png"></div>
+        </div>
+
+    </section>
+
+    <section class="connect"> <!--This section will render the side bar -->
+
+        <h1 id="connectHead">Connect with Me</h1>
+
+        <ul> <!-- This UL will link to GitHub, LinkedIn, etc. -->
+            <li class="connectLinks paddingRight"><a href="https://github.com/ezagala" target="_blank"><img src="assets/images/gitIcon.png" alt="Github icon"></a></li>
+            <li class="connectLinks paddingRight"><a href="https://www.linkedin.com/in/ericzagala/" target="_blank"><img src="assets/images/LinkedInIcon.png" alt="Linked in icon"></a></li>
+            <li class="connectLinks"><address><a href="mailto:ejzagala@gmail.com" target="_blank"><img src="assets/images/gmailIcon.png" alt="Gmail icon"></a></address></li>
+        </ul>
+    
+    </section>
 
     <footer>
             Copywrite 2018 Eric Zagala

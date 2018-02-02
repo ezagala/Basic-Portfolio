@@ -38,10 +38,36 @@ a:link {
     position: relative; 
     top: 2em; 
     left: 10%; 
+    margin-bottom: 5%; 
     margin-right: 50%; 
     float: left; 
     background: white; 
     padding: 15px 15px 15px 15px;
+}
+
+.formField {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative; 
+    top: 2em; 
+    left: 10%; 
+    margin-right: 50%;
+    background: white; 
+    padding: 15px 15px 15px 15px;
+}
+
+.folioGrid {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative; 
+    top: 2em; 
+    left: 10%; 
+    margin-bottom: 5%; 
+    margin-right: 50%;
+    background: white; 
+    padding: 15px 15px 15px 15px;
+}
+
+form {
+    padding-top: 10px; 
 }
 
 #profilePic {
