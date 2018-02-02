@@ -1,0 +1,135 @@
+header {
+    background: white;  /*  #f9f9f9 */
+    border-color: grey;
+    border-bottom: solid grey;
+    border-width: 1px; 
+    padding: 0px 0px .01em 0px; 
+    z-index: 1;
+}
+
+footer {
+    font-family: 'BioRhyme', serif;
+    color: #D3D3D3; 
+    position: fixed; 
+    bottom: 0%; 
+    right: 0%; 
+    left: 0%; 
+    background: #666666;  
+    z-index: 3;
+    padding: 15px 5em 15px 5em; 
+    text-align: center; 
+    border-top: solid #4aaaa5; 
+    border-width: 3px; 
+}
+
+h1 {
+    font-family: 'BioRhyme', serif;
+    border-bottom: solid grey;  
+    padding-bottom: 10px; 
+    border-width: 1px; 
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.boutMe {
+    position: relative; 
+    top: 2em; 
+    left: 10%; 
+    margin-right: 50%; 
+    float: left; 
+    background: white; 
+    padding: 15px 15px 15px 15px;
+}
+
+#profilePic {
+    float: left; 
+    padding-top: 10px; 
+    padding-right: 5px; 
+    border-radius: 10%
+}
+
+#boutMeText {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 10px; 
+}
+
+.connect {
+    position: absolute; 
+    top: 18%; 
+    right: 23%;
+    float: left; 
+    border-style: solid; 
+    z-index: 4;
+    background: white; 
+    padding: 10px 10px 10px 10px; 
+}
+
+.connectLinks {
+    padding-top: 10px; 
+    list-style-type: none;
+    float: left; 
+}
+
+.paddingRight {
+    padding-right: 10px;
+}
+
+#connectHead {
+    padding: 5px 10px 11px 13px; 
+}
+
+.nameBox {
+    font-family: 'BioRhyme', serif;
+    letter-spacing: .05em;
+    font-weight: 500; 
+    background-color: #4aaaa5;
+    margin-left: 10%; 
+    margin-right: 75%; 
+    padding: 25px 15px 25px 13px;    
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.navBar {
+    position: absolute; 
+    list-style-type: none;
+    top: 0%; 
+    left: 60%; 
+    font-family: 'BioRhyme', serif;
+    float: right;
+    border-width: 2px; 
+    z-index: 3;
+}
+
+.headerLinks {
+    color: grey;   
+    list-style-type: none;
+    margin: 0;
+    padding-top: 8%;
+    padding-right: 2em; 
+    overflow: hidden;
+    float: left;
+
+}
+
+#backgroundimage
+{
+   height: auto;
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   min-width: 674px;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: -1;
+}
+
+a {
+    list-style-type: none;
+}
