@@ -2,7 +2,7 @@ header {
     position: static; 
     background: white;  /*  #f9f9f9 */
     border-color: grey;
-    border-bottom: solid  grey;
+    border-bottom: solid;
     border-width: 1px; 
     padding: 0px 0px .01em 0px; 
     z-index: 1;
@@ -15,7 +15,7 @@ header {
     background-color: #4aaaa5;
     margin-left: 10%; 
     margin-right: 75%; 
-    padding: 25px 15px 25px 13px;    
+    padding: 25px 15px 25px 30px;    
     color: white; 
     font-size: 24px; 
     font-weight: bold;
@@ -117,7 +117,7 @@ form {
 
 .connect {
     position: absolute; 
-    top: 18%; 
+    top: 16%; 
     right: 23%;
     float: left; 
     border-style: solid; 
